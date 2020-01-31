@@ -13,10 +13,7 @@
     print "Continuació a la línia següent. <br>";
   ?>
 
-<?php
-require_once("../functions.php");
-?>
-
+ 
 
 </body>
 </html>

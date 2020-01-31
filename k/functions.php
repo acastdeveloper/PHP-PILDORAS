@@ -10,4 +10,4 @@ function getTitle($url)
     return false;
 }
 
-echo getTitle('https://www.jonijnm.es/web/foro/php/16485-conseguir-mediante-php-el-titulo-de-una-pagina.html');
+// echo getTitle('https://www.jonijnm.es/web/foro/php/16485-conseguir-mediante-php-el-titulo-de-una-pagina.html');
