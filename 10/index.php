@@ -124,7 +124,7 @@ Notice: Constant AUTOR already defined in I:\laragon\www\PHP-PILDORAS\10\index.p
   echo "La línia d'aquesta instrucció és: ". __LINE__
 </pre>
 <?php
-echo "La línia d'aquesta instrucció és: ". __LINE__;
+  echo "La línia d'aquesta instrucció és: ". __LINE__;
 ?>
 
 
