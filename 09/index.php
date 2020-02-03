@@ -70,8 +70,19 @@
     </tr>
   </table>
 
+<hr>
 
+<p>Al video per provar aquestes opcions fa servir un formulari per enviar unes cadenes a la mateixa pàgina a traves d'un formulari. </p>
 
+<p>Per la explicació del video introdueix els següents continguts que ara no reproduiré per bàsics:</p>
+<ul>
+<li>Construeix un formulari </li>
+<li>Utilitza variables superglobals del tipus $_POST</li>
+<li>Introdueix la funció isset() per comprovar si s'ha definit una variable.</li>
+<li>També introdueix operadors com && que s'explicarà més endavant.</li>
+</ul>
+
+  <p>Bàsicament fa un formulari de login en la que comprovarà si </p>
 
 </body>
 </html>
