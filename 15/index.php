@@ -156,7 +156,69 @@ th, td {padding:5px; border:1px solid darkgreen;}
 </tr>
 </table>
 <hr>
-<h2>Condicional 1. IF.</h2>
+<h2>Condicional 1. IF ELSE.</h2>
+<h3>ACTUALITZACIÓ</h3>
+<p>Això que posaré a continuació no està al video. Però ho ajunto. Hi ha dues maneres de fer servir la estructura condicional IF ELSE. La clàssica amb claudators i una forma alternativa amb "dos punts". Veiem a continuació les dues formes: </p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Clàssica</th>
+      <th>Alternativa</th>
+    </tr>
+  </thead>
+    <tr>
+      <td>
+        <pre>
+          if (CONDICION)
+          {
+            SENTENCIAS A EJECUTAR;
+          }
+          else if (CONDICION 2)
+          {
+            OTRAS SENTENCIAS A EJECUTAR;
+          }
+          elseif (CONDICION 3)
+          {
+            AÚN OTRAS SENTENCIAS A EJECUTAR;
+          }
+          else {
+            OTRAS SENTENCIAS A EJECUTAR SI NO SE CUMPLE NINGUNA DE LAS CONDICIONES PRECEDENTES;
+          }
+        </pre>
+      </td>
+      <td>
+        <pre>
+            if (CONDICION):
+              SENTENCIAS;
+            elseif (CONDICION2):
+              OTRAS SENTENCIAS;
+            else:
+              SENTENCIAS CUANDO NO SE CUMPLE NINGUNA CONDICIÓN PREVIA;
+        </pre>
+      </td>
+    </tr>
+    <tr>
+      <td><strong>Nota:</strong> Al mode clàssic es pot fer servir:
+        <ul>
+          <li>ELSE IF()</li>
+          <li>ELSEIF()</li>
+        </ul>
+        És a dir, en dues paraules o una.
+       </td>
+      <td>
+        En canvi en mode alternatiu només es pot fer servir ELSEIF().
+
+      </td>
+    </tr>
+</table>
+
+<hr>
+
+
+
+
+
 <p>A continuació avaluarem què fa el codi següent:</p>
 <pre>
   $var1=true;

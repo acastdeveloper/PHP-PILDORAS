@@ -29,6 +29,9 @@
 
   </form>
 
+<p>Finalment he optat per fer la calculadora amb switch.</p>
+
+
 <?php
   if (isset($_POST["button"])) {
       $numero1=$_POST["num1"];
@@ -64,11 +67,6 @@ function resultat($op, $n1, $n2)
       break;
   }
 }
-
-
-
-
-
 ?>
 
 </body>
