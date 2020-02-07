@@ -67,7 +67,7 @@
 <hr>
 
 <h2>MÈTODE CONSTRUCTOR. Estat inicial dels objectes</h2>
-  <p>Tota classe ha de tenir un estat inicial. Aquest estat inicial el definim amb un mètode anomenat <strong><em>MÈTODE CONSTRUCTOR</em></strong>, al qual li hem de donar el mateix nom que a la classe. Veiem a continuació com quedaria al nostre exemple:</p>
+  <p>Tota classe ha de tenir un estat inicial. Aquest estat inicial el definim amb un mètode anomenat <strong><em>MÈTODE CONSTRUCTOR</em></strong>, al qual el definim posant <strong><em> __construct</em>. Veiem l'exempe:</strong>:</p>
 
   <pre>
     class Coche {
@@ -77,7 +77,7 @@
       var $motor;
 
       //MÈTODES
-      function Coche(){ //Mètode CONSTRUCTOR
+      function __construct(){ //Mètode CONSTRUCTOR
         $this->ruedas=4;
         $this->color="blanco";
         $this->motor=1600;
@@ -127,7 +127,7 @@ $mazda->girar();
     var $motor;
 
     //MÈTODES
-    function Coche(){ //Mètode CONSTRUCTOR
+    function __construct(){ //Mètode CONSTRUCTOR
       $this->ruedas=4;
       $this->color="blanco";
       $this->motor=1600;
@@ -170,7 +170,7 @@ class Coche
     public $motor;
 
     //MÈTODES
-    public function Coche()
+    public function __construct()
     { //Mètode CONSTRUCTOR
         $this->ruedas=4;
         $this->color="blanco";
