@@ -169,6 +169,8 @@ $pegaso->estableix_color("vermell", "camioncete");
 
       public function arrencar() {
         parent::arrencar();
+        /* Amb aquesta instrucció fem que s'executi el mètode arrencar() que hi ha a la seva superclasse. */
+
         echo "Camió arrencat";
       }
 
@@ -196,8 +198,8 @@ $pegaso->estableix_color("vermell", "camioncete");
 </ul>
 <p>L'<strong><em>Operador de Resolució d'Àmbit (::)</em></strong> és un "token" que permet:</p>
 <ul>
-  <li>Accedir a elements ESTÀTICS i CONSTANTS d'una classe</li>
-  <li>Sobre-escriure mètodes d'una classe.</li>
+  <li>Accedir a elements ESTÀTICS i CONSTANTS d'una CLASSE</li>
+  <li>Sobre-escriure mètodes d'una CLASSE, no d'un Objecte.</li>
 </ul>
 
 
